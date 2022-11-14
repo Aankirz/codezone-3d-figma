@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+   overflow-x: hidden;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-image:  url(./images/headerBackground.png); /**/
+    /* object-fit: cover; */
+}
+
+.page1 header{
+  display: flex;
+  transform: translate(40px,30px);
+}
+.page1 header img{
+    width: 144px;
+height: 46px;
+
+}
+.page1 header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(100px);
+   
+}
+nav a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.page1 .mainContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 99; */
+    transform: translate(290px,200px);
+    width: 50%;
+}
+.mainContent h1{
+    
+    
+    font-weight: 700;
+font-size: 80px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.mainContent h3{
+    text-align: center;
+}
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    overflow-y: hidden;
+}
+.page2 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translate(0px,100px);
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    overflow-y: hidden;
+
+}
+.page3 li h1{
+    color: red;
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: hidden;
+    background: url(./images/jie-hua-yan-1\ 1.png);
+}
+
+.page4 .content{
+ 
+    width: 573.2px;
+    height: 400.69px;
+    left: 120.22px;
+top: 388.5px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+.page5 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translate(110px,100px);
+}
+.page5 button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.page6{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
